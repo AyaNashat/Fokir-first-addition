@@ -1,0 +1,605 @@
+/* Fokir first page home........................................... */
+body{
+    margin: 0;
+    
+}
+.container{
+    position: relative;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url(photo/hero\ img.jpg);
+    background-size: cover;
+    position: relative;
+   
+}
+.back-ground{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .7);
+    position: absolute;
+   
+}
+
+.text{
+    color: red;
+    float: left;
+    font-size: 25px;
+    margin-top:20px ;
+    margin-left: 30px;
+
+}
+.clear-fix{
+    clear: both;
+}
+.list{
+    
+    float: right;
+    color: aliceblue;
+    padding-top: 0;
+}
+.list ul li{
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 15px;
+   
+}
+.sec-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+.sec-text h1{
+color: #ff305b;
+font-size: 45px;
+}
+.sec-text h3{
+    color: #ffffff;
+    font-size: 22px;
+}
+/* second part i hello...................................................................... */
+.border{
+    width: 380px;
+    height: 480px;
+    background-color:white;
+    /* border: 9px solid ; */
+    border-radius: 12px;
+    position: absolute;
+    top: -25px;
+    left: 160px;
+box-shadow: 0 0 0 8px #555555 inset;
+    
+   
+    
+}
+.ihello{
+    position: relative;
+    margin-top: 7%;
+}
+.img-hello{
+    width: 30%;
+    display: inline-block;
+    background-color: teal;
+    position: absolute;
+    left: 15%;
+    position: relative; 
+    overflow: hidden; 
+    
+}
+.img-hello img{
+    width: 100%;
+   
+}
+
+
+.img-hello:hover .item {
+    opacity: 1; /* Show icons on hover */
+  }
+    
+.img-hello .item{
+    background-color:rgb(255, 255, 255);
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;   
+    bottom: 0;
+   opacity: 0;
+   transition: transform 1s ease-in-out; /* Smooth transition */
+   transform: translateY(calc(100% - 25px))
+}
+
+.img-hello:hover .item{
+    transform: translateY(0);
+    background-color:rgba(0, 0,0, .7);
+    color: white;
+
+    top: 0; 
+    opacity: 1;
+}
+.icon i{
+    font-size: 30px;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 30%; 
+}
+
+.icon i:hover{
+   color:#ff305b;
+}
+.text-hello .he span{
+color: #ff305b;
+margin-right:2% ;
+
+}
+.text-hello .he span,h3{
+    font-size:30px ;
+}
+.text-hello p{
+    width: 90%;
+    height: 100px;
+    font-size: 18px;
+    color: #999999;
+}
+.text-hello{
+    float: right;
+    width: 50%;
+    position: relative;
+
+}
+.dash{
+    width: 95%;
+    border-bottom: 1px dashed #999999;
+     margin-bottom: 25px;
+    padding-bottom: 25px; 
+}
+.text-hello ul{
+    list-style: none;
+    color: #999999;
+    font-size: 17px;
+}
+.left{
+    float:left;
+    /* width: 50%; */
+}
+.right{
+    float:right;
+    /* width: 50%; */
+    position:absolute ;
+    top: 61%;
+    left: 40%;
+}
+.text-hello .right span{
+    font-size: 20px;
+    color: black;
+}
+.text-hello .left span{
+    font-size: 20px;
+    color: black;
+}
+.cv button{
+    background-color: #ff305b;
+    padding: 2%;
+    margin: 1%;
+    border-color: #ff305b;
+    border-radius: 8%;
+    color: #ffffff;
+}
+/* our services.................................................................................. */
+
+.service{
+    background-color:#F1F1F1;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 25px;
+    
+}
+.service h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top:25px ;
+}
+/* .service::after{
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+    top: 60px;
+    right: 43%;
+    width: 12%;
+    height: 1px;
+} 
+.service h2::after {
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+    top: 12%;
+    right: 43%;
+    width: 12%;
+    height: 1px;
+}
+.service h2::before {
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+   top:55px ;
+    right: 30%;
+    width: 38%;
+    height: 1px;
+} */
+.design{
+    background-color:#F1F1F1;
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: 3%;
+    transition: .9s;
+}
+.design:hover{
+    background-color:white;
+    padding:  5px 0 5px 0;
+   
+}
+.design:hover i{
+    font-size: 30px;
+}
+.design i{
+    color: #ff305b;
+
+}
+/* third part our portfolio...................................................................... */
+.ourport{
+    /* background-color:#F1F1F1; */
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.ourport h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+/* .ourport ul li{
+    font-size: 20px;
+    list-style: none;
+    float: left; */
+    /* padding-left: 2%; */
+    /* margin-top: 3%;
+    margin-left: 7%; */
+    /* position: absolute;  */
+    /* top: 15%; */
+    /* right: 30%; */
+    /* margin-right: 4%;
+} */
+.ourport button{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: relative;
+    left: 34%;
+    padding-top: 3%;
+
+}
+.img-port{
+   
+    width: 30%;
+    float: right;
+    padding-top: 3%;
+    padding-right: 2%;
+
+}
+.img-port img{
+    width: 100%; 
+}
+.img-port:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
+/* four section number .............................................*/
+.number{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+} 
+.memer{
+    width: 25%;
+    padding-top: 4%;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+}
+.memer i{
+    color: #ff305b;
+}
+.number p{
+    font-size:18px ;
+}
+/* five section feedback............................................................ */
+
+.testimonel-item {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+    left: 19%;
+    width:50% ;
+}
+.testimonel-img {
+    border-radius: 50%;
+    float: left;
+    margin: 12px auto;
+    overflow: hidden;
+    position: relative;
+    width: 110px;
+    z-index: 999;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+ 
+.testimonel-cont {
+    padding-left: 130px;
+}
+.testimonel-item:after {
+    border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    -o-border-image: none;
+    border-image: none;
+    border-style: solid;
+    border-width: 191px;
+    content: "";
+    height: 72px;
+    left: -199px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 77px;
+    z-index: 1;
+}
+
+
+/* .feed{
+    text-align: center;
+    width: 100%; */
+   
+    /* height: auto; */
+    /* position: relative; */
+/* } */
+/* .feed::after{
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+    top: 58%;
+    right: 43%;
+    width: 10%;
+    height: 1px;
+} 
+.feed h2::after {
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+    top: 43%;
+    right: 43%;
+    width: 10%;
+    height: 1px;
+}
+.feed h2::before {
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+   top:50% ;
+    right: 30%;
+    width: 35%;
+    height: 1px;
+} */
+/* .back{
+    background: #555555;
+    width: 55%; */
+    /* height: 50%; */
+    /* text-align: left;
+    position: relative;
+    left: 15%;
+} */
+
+/* .back img{
+    border-radius: 50%;
+    align-items: center;
+} */
+/* .tran{
+   width:1px ;
+   height:1px;
+   background-color:transparent;
+   border: 200px solid transparent;
+   border-right: 100px solid #ff305b;
+position: relative;
+bottom: 25%;
+} */
+.feed h2{
+    text-align: center;
+    font-size: 35px;
+}
+/* our blog............................................................. */
+.blog{
+    width:100% ;
+    background-color: #F1F1F1;
+    height: 70%;
+    text-align: center;
+    margin-top: 6%;
+    position: relative;
+}
+.line{
+    width: 12%;
+    height: 1px;
+    background-color: #ff305b;
+    text-align: center;
+    position: relative;
+    left: 44%;
+    bottom: 2%;
+    display: block;
+}
+.blog::after {
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+    top: 10%;
+    right: 46%;
+    width: 7%;
+    height: 1px;
+}
+.blog::before {
+    content:'' ;
+    background-color: #ff305b;
+    position: absolute;
+   top:8% ;
+    right: 46%;
+    width: 7%;
+    height: 1px;
+}
+.blog h2{
+    font-size: 35px;
+}
+.web{
+    background-color:white;
+    text-align: left;
+    width: 28%;
+    font-size: 13px;
+    float: left;
+    margin: 2%;
+
+}
+.web img{
+    width: 100%;
+}
+/* section form................................................................ */
+.rorm{
+    width: 80%;
+    /* margin-right: 4%; */
+    position: relative;
+    text-align: center;
+
+
+}
+.rorm h2{
+    margin-left: 300px ;
+}
+form{
+    /* position: absolute; */
+    margin: 5 20%;
+    right: 25px;
+    width: 90%;
+}
+.rorm input:nth-child(1){
+    float: left;    
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.rorm input:nth-child(2){
+    float: right;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 7px;
+
+
+
+}
+.rorm input:nth-child(3){
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+
+
+
+}
+.rorm input:nth-child(4){
+    width: 100%;
+
+}
+
+.rorm form button{
+    float: left;
+    color:white;
+    margin-top: 5px;
+    padding: 5 20 5 20;
+    background-color: #ff305b;
+    border-radius: 5%;
+}
+
+h2:after, .section-title h2:before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+.section-title h2:before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+.section-title h2:after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+.section-title h2:after, .section-title h2:before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+/* last footer .............................................*/
+.footer{
+    width: 100%;
+    background-color: #333333;
+    margin-top: 7%;
+    height: 20%;
+}
+.icfo{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 2%;
+    color: white;
+}
+i:hover{
+    color: #ff305b;
+}
+.tefo{
+    text-align: center;
+    color: white;
+}
+.tefo a{
+    color: #ff305b;
+}
+
+    
